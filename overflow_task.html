@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.app_name{background-image: url(../Css3/Assest/cosmetic.jpg);
+    height: 5vh;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;}
+.top_class{display: flex;
+        justify-content:space-around;
+        background-color: bisque; 
+        position: sticky;
+        top: 0px;
+        z-index: 1000;}
+
+.flex3{overflow: auto;
+    background-color: beige;
+    height: 70vh;
+    width:20%;
+    position: sticky;}
+#connet_list1:hover+ #list1{
+    background-color:bisque;
+    display: inline;
+}
+#list1{
+    display: none;
+}
+
+</style>
+<body>
+    <DIV >
+    <div><h2 class="app_name">NyKaa</h2></div>
+    </DIV>
+    <div class="top_class">
+    <div class="flex1"> <h5><input type="text"placeholder=search></h5> </div>
+    <div class="flex4"> <h5>Category</h5> </div>
+    <div class="flex5"> <h5>NyKaa fashion</h5> </div>
+    <div class="flex6"> <h5>Beauty Advice</h5> </div>
+    <div class="flex2"> <h5><input type="button"value=signin></h5> </div>
+    </div>
+    <div class="flex3">
+        <div><h4 id="connect_list1">Makeup</h4></div>
+        <div><h4>Skin</h4></div>
+        <div><h4>Hair</h4></div>
+        <div><h4>Appliances</h4></div>
+        <div><h4>Fragrance</h4></div>
+        <div><h4>Men</h4></div>
+        <div><h4>Health&Wellness</h4></div>
+        <div><h4>Natural</h4></div>
+        <div><h4>Bath&Body</h4></div>
+    </div>
+    <div>
+        <ul id="list1"> 
+           <li>Foundation</li>
+           <li>Concealer</li>
+           <li>Blush</li>
+           <li>Eyeshadow</li>
+           <li>Eyeliner</li>
+           <li>Lipstick</li>
+        </ul>
+         
+    </div>
+</body>
+</html>
+
